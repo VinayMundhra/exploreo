@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "631491089566",
+    "project_id": "exploreo-f78f8",
+    "storage_bucket": "exploreo-f78f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631491089566:android:026575fe9db88f8dc6578f",
+        "android_client_info": {
+          "package_name": "com.example.exploreo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631491089566-gupvpgavmtiudrkgnqfjj1j5b4jdo9l2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4YZIEa7v5LC0R5Oj_HcQqfJWYnRxRQko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631491089566-gupvpgavmtiudrkgnqfjj1j5b4jdo9l2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
