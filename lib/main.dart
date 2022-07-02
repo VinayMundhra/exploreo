@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData.dark().copyWith(
           scaffoldBackgroundColor: mobileBackgroundColor,
         ),
-        home: const VerifyNumberScreen()
+        home: const SignupScreen()
         //     StreamBuilder(
         //       stream: FirebaseAuth.instance.authStateChanges(),
         //       builder: (context, snapshot) {

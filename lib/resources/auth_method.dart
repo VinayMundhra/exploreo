@@ -24,16 +24,16 @@ class AuthMethods {
   Future<String> signUpUser({
     required String email,
     required String password,
-    required String username,
-    required String bio,
+     String? username,
+     String? bio,
     required Uint8List file,
   }) async {
     String res = "Some error Occurred";
     try {
       if (email.isNotEmpty ||
           password.isNotEmpty ||
-          username.isNotEmpty ||
-          bio.isNotEmpty ||
+          // username.isNotEmpty ||
+          // bio.isNotEmpty ||
           // ignore: unnecessary_null_comparison
           file != null) {
         // registering user in auth with email and password
@@ -46,11 +46,11 @@ class AuthMethods {
             await StorageMethods().uploadImageToStorage('profilePics', file, false);
 
         model.User _user = model.User(
-          username: username,
+          username: 'username',
           uid: cred.user!.uid,
           photoUrl: photoUrl,
           email: email,
-          bio: bio,
+          bio: 'bio',
           followers: [],
           following: [],
         );
